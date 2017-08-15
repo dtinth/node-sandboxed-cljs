@@ -24,3 +24,9 @@ runtime.run(`
 runtime.run('(random-order 10)')
 // => "[8 1 7 2 9 5 6 4 3 10]"
 ```
+
+To rebuild `runtime.js`, run:
+
+```
+lein cljsbuild once
+```
