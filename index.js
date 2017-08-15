@@ -15,11 +15,16 @@ module.exports = function createRuntime () {
   }
 
   const vm = new VM({
-    console: 'inherit',
     sandbox: sandbox
   })
 
   vm.run(getScript())
 
-  return sandbox.environment.run
+  return {
+    sandbox,
+    vm,
+    run: code => new Promise(resolve => {
+      sandbox.environment.run(code, resolve)
+    })
+  }
 }
