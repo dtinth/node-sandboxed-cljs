@@ -11,5 +11,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Thai Pangsakulyanont <org.yi.dttvb@gmail.com> (http://dt.in.th/)"
+  "author": "Thai Pangsakulyanont <org.yi.dttvb@gmail.com> (http://dt.in.th/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtinth/node-sandboxed-cljs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dtinth/node-sandboxed-cljs/issues"
+  },
+  "homepage": "https://github.com/dtinth/node-sandboxed-cljs#readme"
 }
