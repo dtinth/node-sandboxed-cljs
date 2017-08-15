@@ -56,4 +56,3 @@ pom.xml.asc
 .lein-plugins/
 .lein-failures
 
-/src-cljs/
